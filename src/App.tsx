@@ -1,3 +1,4 @@
+import Categories from "./components/Categories.tsx";
 
 
 {/* function App() {
@@ -247,14 +248,17 @@ import Hero from "./components/Hero.tsx";
 import PopularBook from "./components/PopularBook.tsx";
 
 import Footer from "./components/Footer.tsx";
+import Reviews from "./components/Reviews.tsx";
 
 const App= () => {
   return (
       <>
     <div className="min-h-screen bg-gray-100">
       <Header />
-          <Hero />
+      <Hero />
       <PopularBook />
+      <Categories />
+      <Reviews />
       <Footer />
     </div>
         </>
