@@ -1,7 +1,9 @@
-function App() {
+
+
+{/* function App() {
   return (
       <div className="bg-pink-100 text-gray-800 min-h-screen">
-        {/* Header */}
+        {/* Header
         <header className="sticky top-0 z-50 bg-blue-100 border-b shadow-sm">
           <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
             <h1 className="text-2xl font-bold text-blue-600">BookStore</h1>
@@ -23,7 +25,7 @@ function App() {
         </header>
 
         <main>
-          {/* Hero Section */}
+          {/* Hero Section
           <section className="max-w-7xl mx-auto px-4 py-1 grid md:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
@@ -49,7 +51,7 @@ function App() {
             </div>
           </section>
 
-          {/* Popular Books */}
+          {/* Popular Books
           <section className="max-w-7xl mx-auto px-4 py-1">
             <h3 className="text-3xl font-bold mb-8">Popular Books</h3>
 
@@ -116,7 +118,7 @@ function App() {
             </div>
           </section>
 
-          {/* Categories */}
+          {/* Categories
           <section className="max-w-7xl mx-auto px-18 py-1">
             <h3 className="text-3xl font-bold mb-8">Categories Books</h3>
 
@@ -156,7 +158,7 @@ function App() {
             </div>
           </section>
 
-          {/* Reviews */}
+          {/* Reviews
           <section className="max-w-7xl mx-auto px-4 py-1">
             <div className="bg-blue-200 rounded-3xl shadow p-8 grid md:grid-cols-2 gap-8">
               <div>
@@ -192,7 +194,7 @@ function App() {
           </section>
         </main>
 
-        {/* Footer */}
+        {/* Footer
         <footer className="bg-slate-900 text-white mt-16">
           <div className="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-4 gap-8">
             <div>
@@ -233,30 +235,30 @@ function App() {
   )
 }
 
-export default App;
+export default App */}
 
 
 
 
 
 
-
-
-{/* import React from 'react';
 import Header from "./components/Header.tsx";
-import CardList from "./components/CardList.tsx";
+import Hero from "./components/Hero.tsx";
+import PopularBook from "./components/PopularBook.tsx";
+
 import Footer from "./components/Footer.tsx";
 
-const App: React.FC = () => {
+const App= () => {
   return (
+      <>
     <div className="min-h-screen bg-gray-100">
       <Header />
-      < main className="p-6">
-          <CardList />
-      </main>
+          <Hero />
+      <PopularBook />
       <Footer />
     </div>
+        </>
   );
 }
 
-export default App;   */}
+export default App;
